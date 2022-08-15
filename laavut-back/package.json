@@ -1,0 +1,35 @@
+{
+  "name": "laavut-back",
+  "version": "1.0.0",
+  "description": "oma projekti laavuista",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "proxy": {
+    "/api": {
+      "target": "https://localhost:3007/",
+      "secure": false
+    }
+  },
+  "author": "Heidi R",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-error": "^0.0.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.3",
+    "multer": "^1.4.5-lts.1",
+    "Router": "^2.1.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

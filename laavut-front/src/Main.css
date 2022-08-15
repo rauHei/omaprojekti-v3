@@ -1,0 +1,118 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+body{
+    background: rgb(245, 246, 222);
+   
+}
+
+
+/* Navbar muotoilut */
+.nav-item{
+
+ font-size: 20px;
+ font-style: normal;
+ text-decoration: none!important;
+ 
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 22px;
+    color: black;
+   font-family: 'Lato', sans-serif;
+
+}
+.nav-item a:hover{
+    color: blue;
+}
+
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-image: linear-gradient(-90deg, #90EE90,#dbf09e);
+}
+
+
+
+#paaalue{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.container{
+    list-style: none;
+}
+.btn btn-primary{
+    float: right;
+    margin-left: 5px;
+}
+.btn btn-outline-primary{
+    width: 160px;
+    margin-left: 5px;
+}
+
+
+#navbarAlue li{
+    padding:10px;
+}
+.homeheadings{
+    text-align: center;
+}
+.frontpage{
+    align-content: center;
+    justify-content: center;
+}
+.d-flex{
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-right: 3px;
+}
+
+.d-flex input{
+    margin-right: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+#inlineFormInputPassword2{
+    margin-left: 5px;
+    margin-right: 15px;
+    align-content: center;
+    justify-content: center;
+}
+#inlineFormInputName2{
+    margin-left: 15px;
+    margin-right: 15px;
+    align-content: center;
+    justify-content: center;
+}
+
+#navbarAlue{
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+#togslebut{
+    float: right;
+}
+
+
+
+
+/* delete sivun muotoilut */

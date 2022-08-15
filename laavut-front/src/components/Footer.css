@@ -1,0 +1,65 @@
+#kokoSivu{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(-90deg, #3b873b,#0ed65b);
+}
+
+.footer{
+    padding: 30px;
+    margin: 0px;
+    margin-top: -24px;
+}
+
+
+#kelot{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    display: flex;
+    padding: 5px;
+
+}
+#kelot a{
+    padding: 3px;
+    font-size: 20px;
+    color: azure;
+    font-family: 'Lato', sans-serif;
+}
+
+#kelot a:hover{
+    color: black;
+}
+#kelo{
+    width: 100px;
+    height: 70px;
+}
+#logo{
+    margin-right: 5px;
+    color: azure;
+    font-size: 21px;
+}
+
+@media only screen and (max-width: 700px) {
+  #kokoSivu {
+    width: 100%;
+    
+  }
+  .footer{
+    width: 49,999%;
+  }
+  
+  
+  
+}
+
+@media only screen and (max-width: 500px) {
+ 
+  
+ .footer{
+    width: 100%;
+  }
+  
+}

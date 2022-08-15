@@ -1,0 +1,370 @@
+body{
+     font-family: 'Lato', sans-serif;
+    background-color: beige;
+}
+
+
+
+
+/* otsikon ja kuvan muotoilut */
+#yläosa{
+    display: grid;
+    margin-bottom: 30px;
+}
+
+#otsikko2{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+
+}
+#otsikko2 h1{
+font-size: 46px;
+font-weight: bold;
+font-family: 'Lato', sans-serif;
+}
+
+
+/* grid muotoilut */
+#yläkuva{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    width:25%;
+    float: right;
+    margin: auto;
+    margin-top: 85px;
+    
+
+}
+#otsikko{
+ width: 63%;
+ float: left;
+ text-align: center;
+ margin-top: 55px;
+ margin-bottom: 90px;
+}
+
+/* gridin yläkuvan otsikon ja kappaleen muotoilut */
+#otsikko h4 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color:rgb(250, 141, 9);
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#otsikko p{
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/*gridin yläosan kuva */
+
+#maisemakuva{
+    width: 85%;
+    max-width:100%;
+    border: solid gray 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+
+/* Kartta muotoilut */
+#map{
+  width: 100%;
+  border: 3px solid gray;
+}
+
+
+/* Karttamerkkien kuvien asettelu */
+
+#Kartta{
+    position: relative;
+    display: block;
+
+    margin: auto;
+}
+
+#HariKuva{
+    width: 140px;
+    height: 105px;
+    border: solid black 2px;
+    border-radius: 1.5em;
+    margin-right: 10px;
+}
+#map2{
+    position: relative;
+    display: block;
+    border: solid gray 2px;
+    width: 1200px;
+    height: "180px";
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+.leaflet-container{
+    width: 60vh;
+    height: 45vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+
+
+}
+/* Kartta hommat päättyy */
+
+
+#lista{
+    
+    padding: auto;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 30px;
+   
+    /* align-items: center; */
+   
+
+}
+
+/* Alaosan eka osio */
+.alaosa{
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0;
+
+}
+
+
+/* kuva ja nimi laavusta */
+
+.listanimet{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: beige;
+    width: 55%;
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    
+    color: darkgreen;
+    
+}
+.listanimet h5{
+    /* margin-bottom: 50px; */
+    color:darkgreen;
+}
+
+
+#lista{
+    padding-bottom: 10px;
+    width: 100%; 
+    margin-left: 40px;
+    margin-top: 30px;   
+}
+
+#alue2{
+width: 100%;
+grid-row: 1/4;
+
+
+
+    
+}
+
+#listaL{
+    
+    width: 150px;
+    font-size: 18px;
+    margin-right: 10px;
+   
+}
+#lista2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-size: 34px;
+    padding-bottom: 30px;
+
+}
+
+.kuvaosa{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    width: 45%;
+    float: right;
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+
+.img-fluid{
+    width: 85%;
+    height: 85%;
+    
+
+}
+.kuvaosa img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    border: solid gray 2px;
+ 
+}
+
+.kuvalistalla{
+    width: 100%;
+    height: auto;
+}
+
+
+#alaosa2{
+     box-sizing: border-box;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+.taulut{
+    align-items: center;
+    margin-right: 10px;
+    justify-content: center;
+    display: block;
+    width: 600px;
+    height: 450px;
+}
+
+#listalinkit{
+    float: right;
+    display: block;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#listalinkit li{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+#listalinkit h3{
+    margin-top: 10px;
+}
+#listalinkit ul{
+    margin-top: 50px;
+}
+
+.kuvaosa2{
+    position: relative;
+    float: left;
+    display: block;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.img-fluid2{
+    width: 85%;
+    height: 85%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    margin: auto;
+}
+.kuvaosa2 img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    border: solid gray 2px;
+    display: block;
+    margin:auto;
+  
+    margin-bottom: 80px;
+
+}
+#ot{
+    color: rgb(182, 64, 100);
+    font-family: 28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  #map2 {
+    width: 100%;
+    margin: 6px 0;
+  }
+  
+  .listanimet{
+    width: 100%;
+    margin: 6px 0;
+  }
+  
+  #listalinkit{
+    width: 100%;
+    margin: 6px 0;
+  }
+  #yläkuva{
+    width: 86%;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  .kuvaosa{
+    width: 85%;
+    margin: 6px 0;
+    margin: auto;
+  }
+  .kuvaosa2{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #otsikko{
+     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #map2 {
+    width: 100%;
+    
+  }
+  .listanimet{
+    width: 100%;
+}
+    #listalinkit{
+    width: 100%;
+}
+
+  .kuvaosa{
+    width: 100%;
+    margin-left: 35px; 
+  }
+
+  #otsikko{
+     width: 100%;
+  }
+  #yläkuva{
+    width: 86%;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+.kuvaosa2{
+    width: 100%;
+}
+}
+
+
+
+

@@ -1,0 +1,10 @@
+POST  http://localhost:3007/api/feedback
+Content-Type: application/json
+
+
+{
+    "name":"Harijärven kota",
+    "state": "OK",
+    "feedback": "Hieno",
+      
+}

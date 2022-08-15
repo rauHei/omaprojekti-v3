@@ -1,0 +1,159 @@
+#profiilisivu1{
+    background-image: url('../Img/metsatausta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    border: 2px solid gray;
+    padding-bottom: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+#kayttajaOsa{
+    margin-top: 50px;
+}
+
+.itemB{
+    margin-top: 30px;
+    position: relative;
+}
+
+.profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    background-color: #D8C3A5;
+    color: #5f5e5c;
+    margin: 30px auto;
+    padding: 10px;
+    max-width: 60%;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    margin-top: 90px;
+}
+#profiilisivu{
+    margin: auto;
+    width: 75%;
+}
+
+
+
+
+#omatKommentit{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: bolder;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    background-color: #D8C3A5;
+    color: #5f5e5c;
+    max-width: 61%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+
+.profiilisivu p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ilmoitukset {
+    background-color: #EAE7DC;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.ilmoitus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    background-color: #D8C3A5;
+    color: #5f5e5c;
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: auto;
+   
+    margin-top: 25px;
+    
+    
+}
+.ilmoitus h2  {
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    background-color: #bba688;
+    color: #2f372e;
+    padding: 6px;
+}
+.ilmoitus h3 {
+    color: #5f5e5c;
+}
+.ilmoitus button{
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    background-color: #bba688;
+    margin-bottom: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    
+}
+button{
+    margin-top: 15px;
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    background-color: #bba688;
+    padding: 6px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.781);
+}
+.button:hover{
+    background-color: green;
+    color: white;
+}
+.profiilikuva{
+    margin-bottom: 20px;
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 30%;
+}
+.tahdet{
+     margin-bottom: 20px;
+}
+
+/* DELETED SIVUN MUOTOILUT */
+#deletedsivu{
+ background-image: url('../Img/metsatausta.jpg');
+  background-image: no-repeat center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    border: 2px solid gray;
+    padding-bottom: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    padding-bottom: 790px;
+
+}
+
+#delboksi{
+    
+    margin-top: 50px;
+}
+#teksti{
+    padding: 10px;
+    font-size: 24px;
+}

@@ -1,0 +1,64 @@
+/* Tausta */
+#Palautesivu{
+    background-image: url('../Img/metsatausta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+   
+}
+
+.IlmoituksetYläosa h1{
+   font-size: 42px;
+   margin-bottom: 40px;
+  
+}
+
+
+
+/* Kuva palautteseen */
+.palautekuva{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+   
+}
+
+/* itse ilmoitus */
+.ilmoitus2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    background-color: #9fbb88;
+    color: #5f5e5c;
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: auto;
+    margin-bottom: 35px;
+    border:solid #5f5e5c 2px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.ilmoitus2 h1  {
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    background-color: #9fbb88;
+    color: #E85A4F;
+}
+.ilmoitus2 h3 {
+    color: #5f5e5c;
+}
+.ilmoitus2 button{
+    border-radius: 5px;
+    letter-spacing: 0.05em;
+    background-color: #9fbb88;
+    
+}
+
+.tahdet{
+    margin-bottom: 20px;
+}

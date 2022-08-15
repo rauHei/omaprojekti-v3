@@ -1,0 +1,41 @@
+/* yläsosan muotoilut */
+.yläosa{
+    padding: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.yläosa h1{
+    padding: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+   font-size: 52px;
+   text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+#welcome{
+    font-weight: bold;
+    color: red;
+    font-size: 32px;
+}
+
+
+/* carousellin muotoilut */
+#laavutSlides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    margin:auto;
+    
+}
+.container{
+    padding-bottom: 150px;
+}

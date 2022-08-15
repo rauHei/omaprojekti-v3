@@ -1,0 +1,319 @@
+#palautelomakeSivu{
+    background-image: url('../Img/metsatausta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#formialue{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#palautelomake{  
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 246, 222);
+    width: 820px;
+    
+    border:solid gray 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    /* padding-top: 70px;
+    padding-left: 150px; */
+}
+
+
+#palautelomakeButton{
+  margin-top: 20px;
+}
+#palautelomakeOtsikko{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  margin: auto;
+}
+
+#palautelomakeOtsikko h3{
+   text-align: center;
+   font-size: 32px;
+   padding-bottom: 5px;
+
+}
+
+#palautelomakeOtsikko p{
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 60px;
+  margin: auto;
+
+}
+/* Laavuvalinnan muotoilut */
+#laavuValinta{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+#laavuValinta select{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+#sLaavuvalinta{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  padding: 8px;
+}
+#sLaavuvalinta2{
+  display: block;
+  font-family: 'Lato', sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  
+}
+/* Tähti valinnan muotoilut */
+#tahtiMuotoilu{
+  /* margin-left: 320px; */
+  
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+  font-family:Arial, Helvetica, sans-serif;
+}
+#kommenttiotsikko2{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+/* tekstikentän muotoilut */
+
+#kommenttikentta{
+   display: block;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   margin: auto;
+}
+#kommenttiotsikko{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* päivämäärä kentän muotoilut */
+#pvm{
+display: block;
+justify-content: center;
+text-align: center;
+align-items: center;
+font-family: 'Lato', sans-serif; 
+padding-top: 15px;
+padding-bottom: 8px;
+margin-top: 20px;
+}
+#pvmOtsikko{
+   text-align: center;
+   margin-top: 25px; 
+   font-family: 'Lato', sans-serif; 
+}
+
+/* lopuksi nappulan muotoilu */
+
+#submitButton{
+   text-align: center;
+   font-family: 'Lato', sans-serif; 
+   width: 200px;
+   padding: 8px;
+   margin-bottom: 20px;
+   background-color: rgb(208, 255, 196);
+}
+
+#submitButton:hover{
+  background-color: darkseagreen;
+}
+#submitBUttonDiv{
+  display: block;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+#homebutton{
+  margin-left: 360px;
+}
+#palautelomakeHOMEbutton{
+  padding-top: 15px;
+  background-color: rgb(132, 227, 140);
+  color:black;
+  border: 2px solid gray;
+   
+}
+
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.rating > input{ display:none;}
+
+.rating > label {
+  position: relative;
+    width: 1em;
+    font-size: 6vw;
+    color: #FFD600;
+    cursor: pointer;
+}
+.rating > label::before{ 
+  content: "\2605";
+  position: absolute;
+  opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+  opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before{
+  opacity:1;
+}
+
+.rating:hover > input:checked ~ label:before{ opacity: 0.4; }
+
+
+/* Muunna palautetta sivun muotoilut */
+#muunnaPalautettapaaS{
+display: block;
+margin: 0;
+padding: 0;
+padding-bottom: 400px;
+}
+
+#formialue2{
+  border: 2px solid gray;
+  display: block;
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+#formialue2 h3{
+  font-size: 34px;
+  padding: 20px;
+}
+
+
+
+#formialue2 input select{
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+}
+#muunnaTahdet{
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-right: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#otsikkoarviot{
+  padding: 10px;
+  text-align: center;
+  font-size: 21px;
+  margin-right: 190px;
+  font-family: 'Lato', sans-serif;
+}
+#muunnaTextarea{
+  margin: auto;
+  text-align: center;
+}
+#lahetaMuutos{
+ background-color: darkcyan;
+ padding: 10px;
+ margin-bottom: 20px; 
+}
+
+#lahetaMuutos:hover{
+  background-color: rgb(199, 226, 172);
+  color:black
+}
+
+#date{
+  padding: 8px;
+  font-size: 16px;
+}
+#dateLabel{
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+#takasinNappulaedit{
+  margin-left: 30px;
+  padding: 10px;
+}
+#takasinNappulaedit button{
+  padding: 5px;
+  background-color: rgb(166, 216, 169);
+}
+
+@media only screen and (max-width: 700px) {
+  #formialue {
+    width: 100%;
+    margin: auto;
+  }
+  #palautelomakeSivu{
+    width: 100%;
+    margin: auto;
+  }
+  #sLaavuvalinta2{
+    width: 100%;
+    margin: auto;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 500px) {
+  
+  #palautelomake{
+    width: 100%;
+    margin: auto;
+  }
+   #formialue {
+    width: 100%;
+    margin: 6px 0;
+  }
+
+}
