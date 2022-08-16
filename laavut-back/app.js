@@ -8,6 +8,8 @@ const logger = require('./utils/logger')
 const mongoose = require('mongoose')
 const path = require('path')
 
+
+
 const app = express()
 
 
@@ -38,7 +40,11 @@ app.use('/api/feedback', feedbackRouter)
 //käyttäjät
 app.use('/api/users', userRouter)
 
-
+app.get("*", (req, res) => {
+    res.sendFile(
+        path.join(__dirname, "./build/index.html")
+    );
+})
 
 
 app.use(middleware.errorHandler)
