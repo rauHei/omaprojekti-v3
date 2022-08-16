@@ -119,14 +119,14 @@ const EditFeedbackForm = () => {
                         </div>
                     </div>
 
-                    <h5>Kommentoi laavulla käymistäsi ja kokemuksiasi:</h5>
+                    <h5 id="muunnaotsikkoS">Kommentoi laavulla käymistäsi ja kokemuksiasi:</h5>
                     <div className="form-row">
                         <div className="form-group col-md-6" id="muunnaTextarea">
                             <label htmlFor="exampleFormControlTextarea1">Kommenttikenttä</label>
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="4" onChange={textareaChange} ></textarea>
                         </div>
                         <br></br>
-                        <h5>Valitse lopuksi päivämäärä:</h5>
+                        <h5 id="muunnaotsikkoS2">Valitse lopuksi päivämäärä:</h5>
                         <div className="form-group col-md-6-auto">
                             <label id="dateLabel" htmlFor="date">Date: </label>
                             <input type="date" id="date" name="date" onChange={dateChange} />

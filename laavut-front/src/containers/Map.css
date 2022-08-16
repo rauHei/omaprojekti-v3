@@ -52,7 +52,7 @@ font-family: 'Lato', sans-serif;
 #otsikko h4 {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    color:rgb(250, 141, 9);
+    color:rgb(254, 163, 4);
     font-weight: bold;
     margin-left: 30px;
     margin-bottom: 40px;
@@ -177,11 +177,7 @@ font-family: 'Lato', sans-serif;
 
 #alue2{
 width: 100%;
-grid-row: 1/4;
-
-
-
-    
+grid-row: 1/4;   
 }
 
 #listaL{
@@ -212,16 +208,9 @@ grid-row: 1/4;
     margin-bottom: 80px;
 }
 
-.img-fluid{
-    width: 85%;
-    height: 85%;
-    
-
-}
 .kuvaosa img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
     border: solid gray 2px;
- 
 }
 
 .kuvalistalla{
@@ -300,41 +289,55 @@ grid-row: 1/4;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media only screen and (max-width: 1300px) {
+#kuvaosakuva{
+    width: 76%;
+    margin-left: 50px;
+}
+.img-fluid2{
+    width: 76%;
+    height: 76%; 
+}
+.kuvaosa2{
+    margin-top: 20px;
+}
+#map2{
+    width: 100%;
+}
+}
+
 @media only screen and (max-width: 900px) {
  body{
     height: 100%;
  }
   #Kartta {
     width: 80%;
-  }
-  
+  } 
   #map2{
     width: 100%;
   }
   .listanimet{
-    width: 100%;
-    
-  }
-  
+    width: 100%;   
+  } 
   #listalinkit{
     width: 70%;
     margin-top: 5px;
-  
   }
   #yläkuva{
     width: 66%;
     margin-right: 15%;
     margin-bottom: 5%;
-    margin-top: 5px;
-    
+    margin-top: 5px;   
   }
-  
   .kuvaosa{
     margin-top: 10px;
     width: 50%;
     height: 40%;
-    margin-left: 25%;
-    
+    margin-left: 25%;   
+  }
+  #kuvaosakuva{
+    width: 75%;
+    margin-top: 10px;
   }
   .kuvaosa2{
     width: 60%;
@@ -352,40 +355,67 @@ grid-row: 1/4;
   }
   #Kartta{
     width: 100%;
+  }
+  /* yläosan kuvan ja p muotoilut kännytilassa */
+  #otsikko p, h4{
     text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  #lista{
-    margin: 20px;
-    padding: 0px;
-  }
-  #listaL{
-    width: 85%;
-    margin-right: 50px;
-  }
-  .listanimet{
-    width: 100%;
-}
-    #listalinkit{
-    width: 100%;
-}
-
-  .kuvaosa{
-    width: 100%;
-    margin-right: 5px;
-    margin-left: 15px; 
-  }
-
-  #otsikko{
-     width: 100%;
-  }
-  #yläkuva{
+  #maisemakuva{
     width: 86%;
     margin-bottom: 30px;
     margin-top: 0px;
   }
-.kuvaosa2{
+
+  
+
+  /* pikkukuvat */
+
+  #listaL{
+    width: 35%;
+    margin: auto;
+  }
+  .listanimet{
     width: 100%;
+    margin: auto;
 }
+  #lista{
+    width: 100%;
+    margin: auto;
+    padding-left: 2px;
+   
+}
+#kuvaosakuva{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+
+  /* alaosan muotoilut */
+  .img-fluid2{
+    width: 66%;
+  }
+  #lista2{
+   margin: auto;
+  }
+  #listalinkit ul{
+    width: 86%;
+    padding-top: 10px;
+    padding: 0px;
+    margin: auto;
+  }
+  #listalinkit h3{
+    padding: 5px;
+    margin-bottom: 20px;
+  } 
+  #otsikko{
+     width: 100%;
+  }
+  .kuvaosa2{
+    width: 100%;
+  }
 }
 
 

@@ -310,7 +310,7 @@ function Kartta(props) {
                     </div>
 
                     <div className="kuvaosa">
-                        <img src={kuvaAlas} alt="ranta" className="img-fluid" />
+                        <img src={kuvaAlas} alt="ranta" className="img-fluid" id="kuvaosakuva" />
                     </div>
 
                 </div>

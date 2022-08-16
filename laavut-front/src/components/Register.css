@@ -104,9 +104,10 @@ html,body {
   background-size: cover;
   border: 2px solid gray;
   padding: 0px;
+  padding-top: 80px;
   margin: 0;
   padding-bottom: 0px;
-  padding-bottom: 712px;
+  /* padding-bottom: 712px; */
   background-size: cover;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -154,6 +155,7 @@ html,body {
 }
 #osa2{
   margin-top: 5px;
+  padding-bottom: 100px;
 }
 #takas{
   background-color: #bba688;;
@@ -167,7 +169,7 @@ html,body {
 /* lataa profiilikuva muotoilut */
 #lataaKuva{
   
-   background-image: url('../Img/metsatausta.jpg');
+  background-image: url('../Img/metsatausta.jpg');
   background-image: no-repeat center fixed;
   background-size: cover;
   border: 2px solid gray;
@@ -217,6 +219,9 @@ html,body {
     width: 60%;
     margin: auto;
   }
+  #osa2{
+    padding-bottom: 100px;
+  }
    #register{
     width: 60%;
    }
@@ -230,6 +235,8 @@ html,body {
   #register{
     width: 90%;
    }
-  
+  #alue1{
+    width: 90%;
+  }
 
 }

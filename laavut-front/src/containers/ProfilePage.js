@@ -33,7 +33,6 @@ const ProfilePage = () => {
     const [message, setMessage] = useState('')
 
 
-    const us = null
 
     useEffect(() => {
         const loggedUserJSON = window.localStorage.getItem('loggedUser')
@@ -76,16 +75,6 @@ const ProfilePage = () => {
     }, [user2fb])
 
 
-
-
-
-
-
-    console.log('STOREN KÄYTTÄJÄ Profile sivu', useri);
-
-
-
-
     //Näyttää käyttäjän palautteet!!
     const ShowUSerData = () => {
         if (!useri === null) {
@@ -101,16 +90,14 @@ const ProfilePage = () => {
         const user3 = userFromdb.filter(fb => fb.id === useri.id)
 
         const fb = user3.map(fb => fb.feedback)
-        console.log('Mogo', useri);
         setUsers2fb(fb)
 
     }
 
-    console.log('PALAUTTEET', user2fb);
 
     let history = useNavigate();
 
-    //päivittää käyttäjäprofiilia EI TOIMI VIELÄ kunnolla!
+    //päivittää käyttäjäprofiilia!
     const ChangeUserProfile = async (e) => {
         e.preventDefault()
         if (!useri) {
@@ -130,10 +117,6 @@ const ProfilePage = () => {
 
 
     }
-
-
-    // console.log("USERFB", user2fb)
-    // console.log("USER", user)
 
     //vaihtaa käyttäjän profiilikuvan
     const ChangeUserPhoto = async (e) => {
@@ -156,16 +139,7 @@ const ProfilePage = () => {
             setUser(user)
         }
 
-
-
-        // const upd = window.localStorage.getItem('loggedUser2')
-        // const uuser = JSON.parse(upd)
-        // setUpdatedUser(uuser)
-
-
     }
-
-    console.log('UPDATEDUSER', updatedUser);
 
     ///POISTAA kommentin!
     const deleteFeedback = (e) => {

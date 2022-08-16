@@ -55,10 +55,14 @@
 .ilmoitus2 button{
     border-radius: 5px;
     letter-spacing: 0.05em;
-    background-color: #9fbb88;
-    
+    background-color: #9fbb88;    
 }
-
 .tahdet{
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .IlmoituksetYläosa h1{
+        font-size: 38px;
+    }
 }
