@@ -8,7 +8,7 @@ import HomeButton from '../components/HomeButton'
 ///Palaute/kommentti lomake!!
 
 const FeedbackForm = () => {
-    const [newFeedback, setNewFeedback] = useState([{ name: '', state: '', Feedback: '', date: '' }])
+
     const [newlaavu, setLaavu] = useState('');
     const [newstate, setState] = useState('')
     const [newdate, setDate] = useState('')
@@ -64,16 +64,15 @@ const FeedbackForm = () => {
         try {
             feedbackService
                 .create(newPalaute)
-
-            window.localStorage.setItem(
-                'loggedUserFeedback', JSON.stringify(newPalaute)
-            )
-            setNewFeedback(newPalaute)
-            setNewFeedback('')
+                .then((data) =>
+                    window.localStorage.setItem(
+                        'loggedUserFeedback', JSON.stringify(data)
+                    )
+                )
 
             setMessage("Kiitos palautteestasi!")
 
-            //window.location.reload()
+            window.location.reload()
 
 
         } catch (error) {
