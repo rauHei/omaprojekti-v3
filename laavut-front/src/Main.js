@@ -12,7 +12,6 @@ import './Main.css';
 
 import userService from './services/users';
 import feedbackService from './services/Feedback';
-import loginService from './services/Login';
 import Kartta from "./containers/Map";
 import FeedbackPage from "./containers/FeedbackPage";
 import FeedbackForm from "./components/FeedbackForm";
