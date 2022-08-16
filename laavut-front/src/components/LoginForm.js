@@ -66,7 +66,7 @@ const LoginForm = () => {
 
             console.log('KIRJAUTUMINEN ONNISTUI');
 
-            window.location.reload()
+            // window.location.reload()
             history('/')
 
         } catch (error) {
