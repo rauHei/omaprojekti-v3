@@ -7,9 +7,12 @@ import {
     BrowserRouter,
 } from "react-router-dom";
 import Home from "./containers/Home";
-import loginService from '../src/services/Login'
 
 import './Main.css';
+
+import userService from './services/users';
+import feedbackService from './services/Feedback';
+import loginService from './services/Login';
 import Kartta from "./containers/Map";
 import FeedbackPage from "./containers/FeedbackPage";
 import FeedbackForm from "./components/FeedbackForm";
@@ -54,6 +57,8 @@ const Main = () => {
         const loggedUserJSON = window.localStorage.getItem('loggedUser')
         if (loggedUserJSON) {
             const user = JSON.parse(loggedUserJSON)
+            userService.setToken(user.token)
+            feedbackService.setToken(user.token)
             setUser(user)
 
         } else {
@@ -104,7 +109,7 @@ const Main = () => {
                                 </ul>
 
                             }
-                            {/* </div> */}
+
 
 
                             <div className="d-flex">
@@ -116,43 +121,61 @@ const Main = () => {
                         </div>
                     </nav>
 
+
+
                     <div>
+
                         <Routes >
                             <Route path="/" exact element={<Home />} />
                             <Route path="/laavut" exact element={<LaavutPage />} />
                             <Route path="/map" exact element={<Kartta />} />
                             <Route path="/register" exact element={<Register />} />
+                            <Route path="/login" exact element={<LoginForm />} />
+
+                            <Route path="/laavut/harijarvenkota" exact element={<Harijarvenkota />} />
+                            <Route path="/laavut/antintupa" exact element={<Antintupa />} />
+                            <Route path="/laavut/nopsakinlaavu" exact element={<Nopsakinlaavu />} />
+                            <Route path="/laavut/pienenheinalammenlaavu" exact element={<Pienenheinalammenlaavu />} />
+                            <Route path="/laavut/parnankodat" exact element={<Parnankodat />} />
+                            <Route path="/laavut/surmilamminlaavu" exact element={<Surmilamminlaavu />} />
+                            <Route path="/laavut/vaaralammenkota" exact element={<Vaaralammenkota />} />
+                            <Route path="/laavut/vaivionkota" exact element={<Vaivionkota />} />
+                            <Route path="/laavut/harkinvaaranlaavu" exact element={<Harkinvaaranlaavu />} />
+                            <Route path="/laavut/oinaanvaarankota" exact element={<Oinaanvaarankota />} />
+                            <Route path="/laavut/ilmonkota" exact element={<Ilmonkota />} />
+                            <Route path="/laavut/ukonkota" exact element={<Ukonkota />} />
+                            <Route path="/laavut/parkingrilli" exact element={<Parkingrilli />} />
+                            <Route path="/laavut/heinalammenlaavu" exact element={<Heinalammenlaavu />} />
+                            <Route path="/laavut/viinijarvenkota" exact element={<Viinijarvenkota />} />
+                            <Route path="/laavut/sompalammenlaavu" exact element={<Sompalammenlaavu />} />
+                            <Route path="/laavut/huttulammenkota" exact element={<Huttulammenkota />} />
+                            <Route path="/laavut/kylakota" exact element={<Kylakota />} />
+
+
                             <Route path="/feedback" exact element={<FeedbackPage />} />
                             <Route path="/feedbackform" exact element={<FeedbackForm />} />
-                            <Route path="/login" exact element={<LoginForm />} />
+
                             <Route path="/profile" exact element={<ProfilePage />} />
                             <Route path="/editUserInfo" exact element={<EditUserInfo />} />
                             <Route path="/editFeedback" exact element={<EditFeedbackForm />} />
                             <Route path="/editUserphoto" exact element={<EditUserPhoto />} />
                             <Route path="/deleted" exact element={<Deleted />} />
 
+                            <Route path="/" exact element={<Home />} />
+                            <Route path="/laavut" exact element={<LaavutPage />} />
+                            <Route path="/map" exact element={<Kartta />} />
+                            <Route path="/register" exact element={<Register />} />
+                            <Route path="/login" exact element={<LoginForm />} />
 
-                            <Route path="/Harijarvenkota" exact element={<Harijarvenkota />} />
-                            <Route path="/Antintupa" exact element={<Antintupa />} />
-                            <Route path="/Nopsakinlaavu" exact element={<Nopsakinlaavu />} />
-                            <Route path="/Pienenheinalammenlaavu" exact element={<Pienenheinalammenlaavu />} />
-                            <Route path="/Parnankodat" exact element={<Parnankodat />} />
-                            <Route path="/Surmilamminlaavu" exact element={<Surmilamminlaavu />} />
-                            <Route path="/Vaaralammenkota" exact element={<Vaaralammenkota />} />
-                            <Route path="/Vaivionkota" exact element={<Vaivionkota />} />
-                            <Route path="/Harkinvaaranlaavu" exact element={<Harkinvaaranlaavu />} />
-                            <Route path="/Oinaanvaarankota" exact element={<Oinaanvaarankota />} />
-                            <Route path="/Ilmonkota" exact element={<Ilmonkota />} />
-                            <Route path="/Ukonkota" exact element={<Ukonkota />} />
-                            <Route path="/Parkingrilli" exact element={<Parkingrilli />} />
-                            <Route path="/Heinalammenlaavu" exact element={<Heinalammenlaavu />} />
-                            <Route path="/Viinijarvenkota" exact element={<Viinijarvenkota />} />
-                            <Route path="/Sompalammenlaavu" exact element={<Sompalammenlaavu />} />
-                            <Route path="/Huttulammenkota" exact element={<Huttulammenkota />} />
-                            <Route path="/Kylakota" exact element={<Kylakota />} />
+
+
+
+
+
                         </Routes>
 
                     </div>
+
                 </div>
             </BrowserRouter>,
 

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 //sets visibility to places where its needed/ eli komponentti jonka avulla voi vaihdella mikä komponentti milloinkin näkyy
 
-
 const Togglable = forwardRef((props, ref) => {
     const [visible, setVisible] = useState(false)
 

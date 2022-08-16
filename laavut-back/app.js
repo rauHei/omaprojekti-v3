@@ -30,15 +30,13 @@ app.use(middleware.requestLogger)
 //reittien käyttöönotto:
 
 //ladatut kuvat menevät tänne
+
+
 app.use('/pics', express.static(path.join(__dirname, 'pics')));
 //kommentit
 app.use('/api/feedback', feedbackRouter)
 //käyttäjät
 app.use('/api/users', userRouter)
-
-
-
-
 
 
 

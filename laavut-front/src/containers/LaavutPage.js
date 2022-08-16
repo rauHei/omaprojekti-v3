@@ -24,6 +24,8 @@ import Kyläkota from '../Img/kylakota/edesta.jpg';
 const LaavutPage = () => {
 
 
+
+
     return (
         <div className="container-fluid" id="laavupage">
 
@@ -39,7 +41,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/HarijarvenKota'>
+                            <a href='/laavut/harijarvenkota'>
                                 <img src={laavukuva} alt="harijärvenkota" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -53,7 +55,7 @@ const LaavutPage = () => {
                                     <li>Uimaranta</li>
                                     <li>Kinttupolun varrella</li>
                                 </ul>
-                                <a href="/Harijarvenkota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/harijarvenkota" className="card-link">Lisää kuvia</a>
                             </div>
                         </div>
                     </div>
@@ -61,7 +63,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Antintupa'>
+                            <a href='/laavut/antintupa'>
                                 <img src={Antintupa} alt="Antintupa" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -75,14 +77,14 @@ const LaavutPage = () => {
                                     <li>Ruokailuryhmä</li>
                                     <li>Luontopolun varrella</li>
                                 </ul>
-                                <a href="/Antintupa" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/antintupa" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
                     </div>
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Nopsakinlaavu'>
+                            <a href='/laavut/nopsakinlaavu'>
                                 <img src={Nopsakinlaavu} alt="Nopsakinlaavu" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -95,14 +97,14 @@ const LaavutPage = () => {
                                     <li>Mäen päältä näkymä pellolle</li>
                                     <li>Pieni ja soma</li>
                                 </ul>
-                                <a href="/Nopsakinlaavu" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/nopsakinlaavu" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
                     </div>
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Pienenheinalammenlaavu'>
+                            <a href='/laavut/pienenheinalammenlaavu'>
                                 <img src={phlaavu} alt="PienenHeinälammenLaavu" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -115,7 +117,7 @@ const LaavutPage = () => {
                                     <li>Näkymä lammelle</li>
                                     <li>Kinttupolun varrella</li>
                                 </ul>
-                                <a href="/Pienenheinalammenlaavu" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/pienenheinalammenlaavu" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -125,7 +127,7 @@ const LaavutPage = () => {
                 <div className="row">
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Parnankodat'>
+                            <a href='/laavut/parnankodat'>
                                 <img src={Parnankodat} alt="woodToilet" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -138,7 +140,7 @@ const LaavutPage = () => {
                                     <li>Sopii Liikuntaesteisille</li>
                                     <li>Ruokailuryhmä</li>
                                 </ul>
-                                <a href="/Parnankodat" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/parnankodat" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -146,7 +148,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Surmilamminlaavu'>
+                            <a href='/laavut/surmilamminlaavu'>
                                 <img src={Surmilamminlaavu} alt="Surmilamminlaavu" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -159,7 +161,7 @@ const LaavutPage = () => {
                                     <li>Pitkospuut Suonläheisyyteen</li>
                                     <li>Kauniilla paikalla</li>
                                 </ul>
-                                <a href="/Surmilamminlaavu" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/surmilamminlaavu" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -167,7 +169,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Vaaralammenkota'>
+                            <a href='/laavut/vaaralammenkota'>
                                 <img src={Vaaralammenkota} alt="woodToilet" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -181,7 +183,7 @@ const LaavutPage = () => {
                                     <li>Ruokailuryhmä</li>
                                     <li>Kauniilla paikalla</li>
                                 </ul>
-                                <a href="/Vaaralammenkota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/vaaralammenkota" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -189,7 +191,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Vaivionkota'>
+                            <a href='/laavut/vaivionkota'>
                                 <img src={Vaivionkota} alt="Vaivionkota" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -202,7 +204,7 @@ const LaavutPage = () => {
                                     <li>Uimaranta vieressä</li>
                                     <li>Ruokailuryhmä</li>
                                 </ul>
-                                <a href="/Vaivionkota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/vaivionkota" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -212,7 +214,7 @@ const LaavutPage = () => {
                 <div className="row">
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Harkinvaaranlaavu'>
+                            <a href='/laavut/harkinvaaranlaavu'>
                                 <img src={Härkinvaaranlaavu} alt="Härkinvaaranlaavu" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -225,7 +227,7 @@ const LaavutPage = () => {
                                     <li>Grillipaikka</li>
                                     <li>Tilava</li>
                                 </ul>
-                                <a href="/Harkinvaaranlaavu" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/harkinvaaranlaavu" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -233,7 +235,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Oinaanvaarankota'>
+                            <a href='/laavut/oinaanvaarankota'>
                                 <img src={Oinaanvaarankota} alt="Oinaanvaarankota" width="600" height="400" />
                             </a>
 
@@ -247,14 +249,14 @@ const LaavutPage = () => {
                                     <li>Hyvinvarusteltu</li>
                                     <li>Tilava</li>
                                 </ul>
-                                <a href="/Oinaanvaarankota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/oinaanvaarankota" className="card-link">Lisää kuvia</a>
                             </div>
                         </div>
                     </div>
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Ilmonkota'>
+                            <a href='/laavut/ilmonkota'>
                                 <img src={Ilmonkota} alt="Ilmonkota" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -267,7 +269,7 @@ const LaavutPage = () => {
                                     <li>Liikuntaesteisille</li>
 
                                 </ul>
-                                <a href="/Ilmonkota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/ilmonkota" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -275,7 +277,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Ukonkota'>
+                            <a href='/laavut/ukonkota'>
                                 <img src={Ukonkota} alt="Ukonkota" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -288,7 +290,7 @@ const LaavutPage = () => {
                                     <li>Grillipaikka</li>
                                     <li>Näkymät kauas tietyiltä kohdin</li>
                                 </ul>
-                                <a href="/Ukonkota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/ukonkota" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -302,7 +304,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Parkingrilli'>
+                            <a href='/laavut/parkingrilli'>
                                 <img src={ParkinGrilli} alt="ParkinGrilli" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -315,7 +317,7 @@ const LaavutPage = () => {
                                     <li>Grillipaikka</li>
                                     <li>Bike Trailin varrella</li>
                                 </ul>
-                                <a href="/Parkingrilli" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/parkingrilli" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -323,7 +325,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Heinalammenlaavu'>
+                            <a href='/laavut/heinalammenlaavu'>
                                 <img src={Heinälammenlaavu} alt="Heinälammen laavu" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -336,7 +338,7 @@ const LaavutPage = () => {
                                     <li>Grillipaikka</li>
                                     <li>Kotos (yöpymismökki)</li>
                                 </ul>
-                                <a href="/Heinalammenlaavu" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/heinalammenlaavu" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -344,7 +346,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Viinijarvenkota'>
+                            <a href='/laavut/viinijarvenkota'>
                                 <img src={Viinijarvenkota} alt="Heinälammen laavu" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -356,7 +358,7 @@ const LaavutPage = () => {
                                     <li>wc kirkon tiloissa</li>
                                     <li>Grillipaikka</li>
                                 </ul>
-                                <a href="/Viinijarvenkota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/viinijarvenkota" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -364,7 +366,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Sompalammenlaavu'>
+                            <a href='/laavut/sompalammenlaavu'>
                                 <img src={Sompalammenlaavu} alt="Sompalammenlaavu" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -378,7 +380,7 @@ const LaavutPage = () => {
                                     <li>Puuvaja</li>
                                     <li>Puu WC:t</li>
                                 </ul>
-                                <a href="/Sompalammenlaavu" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/sompalammenlaavu" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -391,7 +393,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Huttulammenkota'>
+                            <a href='/laavut/huttulammenkota'>
                                 <img src={Huttulammenkota} alt="Huttulammenkota" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -405,7 +407,7 @@ const LaavutPage = () => {
                                     <li>Laituri ja uimapaikka vieressä</li>
                                     <li>Puu WC</li>
                                 </ul>
-                                <a href="/Huttulammenkota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/huttulammenkota" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
@@ -413,7 +415,7 @@ const LaavutPage = () => {
 
                     <div className="responsive">
                         <div className="gallery">
-                            <a href='/Kylakota'>
+                            <a href='/laavut/kylakota'>
                                 <img src={Kyläkota} alt="Huttulammenkota" width="600" height="400" />
                             </a>
                             <div className="desc">
@@ -426,7 +428,7 @@ const LaavutPage = () => {
                                     <li>Grilli ja sähköuuni</li>
                                     <li>Puu WC</li>
                                 </ul>
-                                <a href="/Kylakota" className="card-link">Lisää kuvia</a>
+                                <a href="/laavut/kylakota" className="card-link">Lisää kuvia</a>
 
                             </div>
                         </div>
