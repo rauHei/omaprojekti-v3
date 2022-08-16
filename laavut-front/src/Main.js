@@ -97,8 +97,8 @@ const Main = () => {
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item"><NavLink to="/">Koti</NavLink></li>
                                     <li className="nav-item"><NavLink to="/laavut/">Laavut</NavLink></li>
-                                    <li className="nav-item"><NavLink to="/Map/">Kartta</NavLink></li>
-                                    <li className="nav-item"><NavLink to="/feedbackForm/">Palautelomake</NavLink></li>
+                                    <li className="nav-item"><NavLink to="/map/">Kartta</NavLink></li>
+                                    <li className="nav-item"><NavLink to="/feedbackform/">Palautelomake</NavLink></li>
                                     <li className="nav-item"><NavLink to="/feedback">Kommentit</NavLink></li>
                                     <li className="nav-item"><NavLink to="/profile/">Omat Tiedot</NavLink></li>
                                 </ul>
@@ -120,11 +120,11 @@ const Main = () => {
                         <Routes >
                             <Route path="/" exact element={<Home />} />
                             <Route path="/laavut" exact element={<LaavutPage />} />
-                            <Route path="/Map" exact element={<Kartta />} />
+                            <Route path="/map" exact element={<Kartta />} />
                             <Route path="/register" exact element={<Register />} />
-                            <Route path="/Feedback" exact element={<FeedbackPage />} />
-                            <Route path="/FeedbackForm" exact element={<FeedbackForm />} />
-                            <Route path="/Login" exact element={<LoginForm />} />
+                            <Route path="/feedback" exact element={<FeedbackPage />} />
+                            <Route path="/feedbackform" exact element={<FeedbackForm />} />
+                            <Route path="/login" exact element={<LoginForm />} />
                             <Route path="/profile" exact element={<ProfilePage />} />
                             <Route path="/editUserInfo" exact element={<EditUserInfo />} />
                             <Route path="/editFeedback" exact element={<EditFeedbackForm />} />
