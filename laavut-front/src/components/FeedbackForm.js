@@ -73,7 +73,7 @@ const FeedbackForm = () => {
 
             setMessage("Kiitos palautteestasi!")
 
-            window.location.reload()
+            //window.location.reload()
 
 
         } catch (error) {
