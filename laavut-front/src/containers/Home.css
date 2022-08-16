@@ -25,6 +25,10 @@
     font-size: 32px;
 }
 
+#etusivu{
+     padding-bottom: 150px;
+}
+
 
 /* carousellin muotoilut */
 #laavutSlides{
@@ -37,5 +41,5 @@
     
 }
 .container{
-    padding-bottom: 150px;
+    padding-bottom: 40px;
 }

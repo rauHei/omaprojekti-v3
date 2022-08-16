@@ -212,12 +212,14 @@ html,body {
   background-color: rgba(155, 183, 106, 0.927);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   #registeroi {
     width: 60%;
     margin: auto;
   }
-   
+   #register{
+    width: 60%;
+   }
 }
 
 @media only screen and (max-width: 500px) {
@@ -225,7 +227,9 @@ html,body {
     width: 100%;
     margin: auto;
   }
-  
+  #register{
+    width: 90%;
+   }
   
 
 }

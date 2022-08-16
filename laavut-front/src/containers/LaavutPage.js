@@ -25,7 +25,7 @@ const LaavutPage = () => {
 
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="laavupage">
 
             <div className="yläosa">
                 <h1>Liperin kunnan alueen kodat ja laavut</h1>

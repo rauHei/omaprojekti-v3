@@ -292,7 +292,7 @@ function Kartta(props) {
                 </MapContainer>
             </div>
 
-            <div className="container-fluid">
+            <div className="container-fluid" id="karttasivu">
 
 
                 <div className="row" id="alaosa">
@@ -322,7 +322,7 @@ function Kartta(props) {
                         <img src={Reittitaulut} alt="reittitaulut" className="img-fluid2" />
                     </div>
 
-                    <div className="container" id="listalinkit">
+                    <div className="container-fluid" id="listalinkit">
                         <h3>Muita karttoja ja linkkejä:</h3>
 
                         <ul>

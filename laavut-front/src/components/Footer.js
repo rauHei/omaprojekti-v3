@@ -12,20 +12,27 @@ import { FaHouseUser } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className="container-fluid" id="kokoSivu">
-            <footer className="footer">
-                <div className="container collapse" id="kelot">
-                    <img src={kelo} alt="kelopuu" id="kelo" />
-                    <a href="https://www.liperi.fi/retkeilyreitit" rel="noreferrer" target="_blank"><FaHouseUser id="logo" />  Liperin kunnan sivut</a>
-                    <img src={kelo} alt="kelopuu" id="kelo" />
+            <footer className="container-fluid" id="footer">
+                <div className="row" id="kelot">
 
-                    <a href="https://fi-fi.facebook.com/liperinkunta" rel="noreferrer" target="_blank"><FaFacebook id="logo" />  Liperin facebook sivut </a>
-                    <img src={kelo} alt="kelopuu" id="kelo" />
+                    <div className="col" id="kel">
+                        <img src={kelo} alt="kelopuu" id="kelo" />
+                        <a href="https://www.liperi.fi/retkeilyreitit" rel="noreferrer" target="_blank"><FaHouseUser id="logo" />  Liperin kunnan sivut</a>
+                    </div>
+                    <div className="col" id="kel">
+                        <img src={kelo} alt="kelopuu" id="kelo" />
+                        <a href="https://fi-fi.facebook.com/liperinkunta" rel="noreferrer" target="_blank"><FaFacebook id="logo" />  Liperin facebook sivut </a>
+                    </div>
+                    <div className="col" id="kel">
+                        <img src={kelo} alt="kelopuu" id="kelo" />
+                        <a href="https://www.instagram.com/liperinkunta/?hl=fi" rel="noreferrer" target="_blank"><FaInstagram id="logo" />  Liperin Instagram</a>
+                    </div>
 
-                    <a href="https://www.instagram.com/liperinkunta/?hl=fi" rel="noreferrer" target="_blank"><FaInstagram id="logo" />  Liperin Instagram</a>
-                    <img src={kelo} alt="kelopuu" id="kelo" />
-
-                    <a href="https://twitter.com/liperinkunta" rel="noreferrer" target="_blank"><FaTwitter id="logo" /> Liperin twitter</a>
-                    <img src={kelo} alt="kelopuu" id="kelo" />
+                    <div className="col" id="kel">
+                        <img src={kelo} alt="kelopuu" id="kelo" />
+                        <a href="https://twitter.com/liperinkunta" rel="noreferrer" target="_blank"><FaTwitter id="logo" /> Liperin twitter</a>
+                    </div>
+                    {/* <img src={kelo} alt="kelopuu" id="kelo" /> */}
                 </div>
 
 

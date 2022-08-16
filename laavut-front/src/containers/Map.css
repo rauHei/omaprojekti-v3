@@ -1,9 +1,12 @@
 body{
      font-family: 'Lato', sans-serif;
     background-color: beige;
+    height: 100%;
 }
 
-
+#karttasivu{
+    height: 100%;
+}
 
 /* otsikon ja kuvan muotoilut */
 #yläosa{
@@ -297,47 +300,67 @@ grid-row: 1/4;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 700px) {
-  #map2 {
-    width: 100%;
-    margin: 6px 0;
+@media only screen and (max-width: 900px) {
+ body{
+    height: 100%;
+ }
+  #Kartta {
+    width: 80%;
   }
   
+  #map2{
+    width: 100%;
+  }
   .listanimet{
     width: 100%;
-    margin: 6px 0;
+    
   }
   
   #listalinkit{
-    width: 100%;
-    margin: 6px 0;
+    width: 70%;
+    margin-top: 5px;
+  
   }
   #yläkuva{
-    width: 86%;
-    margin: auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    width: 66%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    margin-top: 5px;
+    
   }
   
   .kuvaosa{
-    width: 85%;
-    margin: 6px 0;
-    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    
   }
   .kuvaosa2{
-    width: 100%;
+    width: 60%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   #otsikko{
-     width: 100%;
+     width: 80%;
   }
 }
 
 @media only screen and (max-width: 500px) {
   #map2 {
+    width: 100%;  
+  }
+  #Kartta{
     width: 100%;
-    
+    text-align: center;
+  }
+  #lista{
+    margin: 20px;
+    padding: 0px;
+  }
+  #listaL{
+    width: 85%;
+    margin-right: 50px;
   }
   .listanimet{
     width: 100%;
@@ -348,7 +371,8 @@ grid-row: 1/4;
 
   .kuvaosa{
     width: 100%;
-    margin-left: 35px; 
+    margin-right: 5px;
+    margin-left: 15px; 
   }
 
   #otsikko{
