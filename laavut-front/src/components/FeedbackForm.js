@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 //import "../Main.css"
 import '../components/FeedbackForm.css'
 import feedbackService from '../services/Feedback'
+import userService from '../services/users'
 import HomeButton from '../components/HomeButton'
 
 
@@ -23,6 +24,7 @@ const FeedbackForm = () => {
             const user2 = JSON.parse(loggedUserJSON)
             setUsers(user2)
             feedbackService.setToken(user2.token)
+            userService.setToken(user.token)
         }
     }, [])
 
