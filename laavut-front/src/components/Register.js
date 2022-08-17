@@ -47,12 +47,11 @@ const Register = () => {
             .createUser(newPerson)
             .then(() => {
                 setTimeout(() => {
-                    setSuccesMessage('Lähetetään tiedot palvelimelle!')
+                    setSuccesMessage('Nyt voit kirjautua sisään!')
                 }, 3000)
 
-                setUsername('')
-                setName('')
-                setPassword('')
+                window.location.reload()
+
 
             })
             .catch((e) => {
@@ -108,8 +107,8 @@ const Register = () => {
                     />
                     <button className="btn btn-info" type="reset" >Tyhjennä</button>
                     <button className="btn btn-success" type="submit" value="Upload">Register</button>
-                    {succesMessage}
-                    {errorMessage}
+                    <p id="smessage">{succesMessage}</p>
+                    <p id="emessage">{errorMessage}</p>
                 </form>
 
             </div>
