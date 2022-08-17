@@ -67,12 +67,18 @@ const Register = () => {
 
         <div className="container-fluid" id="rekisteroi">
 
-            <div className="container" id="emsg">
+            <div className="container">
                 <p
                     className={errorMessage ? "errmsg" : "offscreen"}
                     aria-live="assertive"
                 >
                     {errorMessage}
+                </p>
+                <p
+                    className={succesMessage ? "errmsg" : "offscreen"}
+                    aria-live="assertive"
+                >
+                    {succesMessage}
                 </p>
             </div>
 
@@ -106,8 +112,7 @@ const Register = () => {
                         required
                         onChange={handlePasswordChange}
                     />
-                    <p id="smessage">{succesMessage}</p>
-                    <p id="emessage">{errorMessage}</p>
+
                     <button className="btn btn-info" type="reset" >Tyhjennä</button>
                     <button className="btn btn-success" type="submit" value="Upload">Register</button>
 

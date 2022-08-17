@@ -75,6 +75,8 @@ const ProfilePage = () => {
     }, [user2fb])
 
 
+
+
     //Näyttää käyttäjän palautteet!!
     const ShowUSerData = () => {
         if (!useri === null) {
