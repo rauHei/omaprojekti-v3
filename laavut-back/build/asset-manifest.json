@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e402804.css",
-    "main.js": "/static/js/main.1cf84f9b.js",
+    "main.css": "/static/css/main.650efaac.css",
+    "main.js": "/static/js/main.e5f2e584.js",
     "static/media/metsatausta.jpg": "/static/media/metsatausta.de0815baddad115a9413.jpg",
     "static/media/kelo2.png": "/static/media/kelo2.a1fd95479d6b5e2ca721.png",
     "static/media/puukuva.jpg": "/static/media/puukuva.344c1284b55c81777aff.jpg",
@@ -104,11 +104,11 @@
     "static/media/kotahyva.jpg": "/static/media/kotahyva.afe186e3ca863ded5de2.jpg",
     "static/media/kirkko.jpg": "/static/media/kirkko.adf8fddd4855baed74a2.jpg",
     "index.html": "/index.html",
-    "main.4e402804.css.map": "/static/css/main.4e402804.css.map",
-    "main.1cf84f9b.js.map": "/static/js/main.1cf84f9b.js.map"
+    "main.650efaac.css.map": "/static/css/main.650efaac.css.map",
+    "main.e5f2e584.js.map": "/static/js/main.e5f2e584.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e402804.css",
-    "static/js/main.1cf84f9b.js"
+    "static/css/main.650efaac.css",
+    "static/js/main.e5f2e584.js"
   ]
 }

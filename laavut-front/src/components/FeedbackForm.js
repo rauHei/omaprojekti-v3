@@ -30,23 +30,17 @@ const FeedbackForm = () => {
 
 
     const optionhandleChange = (event) => {
-        console.log('value', event.target.value)
         setLaavu(event.target.value)
-
     }
-    console.log('LAAVU', newlaavu);
 
     const inputValueChange = (e) => {
-        console.log('e', e.target.value);
         setState(e.target.value)
 
     }
     const textareaChange = (e) => {
-        console.log('area', e.target.value);
         setTextarea(e.target.value)
     }
     const dateChange = (e) => {
-        console.log('date', e.target.value);
         setDate(e.target.value)
     }
     //luo uuden palautteen ja tallentaa sen tietokantaan
@@ -74,7 +68,11 @@ const FeedbackForm = () => {
 
             setMessage("Kiitos palautteestasi!")
 
-            window.location.reload()
+            setTimeout(() => {
+                window.location.reload()
+
+            }, 2000)
+
 
 
         } catch (error) {
