@@ -106,10 +106,12 @@ const Register = () => {
                         required
                         onChange={handlePasswordChange}
                     />
-                    <button className="btn btn-info" type="reset" >Tyhjennä</button>
-                    <button className="btn btn-success" type="submit" value="Upload">Register</button>
                     <p id="smessage">{succesMessage}</p>
                     <p id="emessage">{errorMessage}</p>
+                    <button className="btn btn-info" type="reset" >Tyhjennä</button>
+                    <button className="btn btn-success" type="submit" value="Upload">Register</button>
+
+
                 </form>
 
             </div>
