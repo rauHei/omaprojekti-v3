@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.650efaac.css",
-    "main.js": "/static/js/main.e5f2e584.js",
+    "main.js": "/static/js/main.81926f80.js",
     "static/media/metsatausta.jpg": "/static/media/metsatausta.de0815baddad115a9413.jpg",
     "static/media/kelo2.png": "/static/media/kelo2.a1fd95479d6b5e2ca721.png",
     "static/media/puukuva.jpg": "/static/media/puukuva.344c1284b55c81777aff.jpg",
@@ -105,10 +105,10 @@
     "static/media/kirkko.jpg": "/static/media/kirkko.adf8fddd4855baed74a2.jpg",
     "index.html": "/index.html",
     "main.650efaac.css.map": "/static/css/main.650efaac.css.map",
-    "main.e5f2e584.js.map": "/static/js/main.e5f2e584.js.map"
+    "main.81926f80.js.map": "/static/js/main.81926f80.js.map"
   },
   "entrypoints": [
     "static/css/main.650efaac.css",
-    "static/js/main.e5f2e584.js"
+    "static/js/main.81926f80.js"
   ]
 }
