@@ -18,14 +18,14 @@ const Ilmonkota = () => {
     }
 
     return (
-        <div className="container-fluid" >
+        <div className="container-fluid" id="laavukuvasivu" >
 
             <div className="kuvatLaavuistaOtsikko">
                 <h1>Lisäkuvia Ilmon kodalta</h1>
 
             </div>
 
-            <div className="row">
+            <div className="row" id="kuvat">
                 <div className="column" id="lisakuvat" >
                     <img src={edestä} alt="Ilmonkota" width="600" height="400" />
 

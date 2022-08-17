@@ -67,20 +67,15 @@
     
 } 
 
-/* kuvatekstikokeiluita */
-/* #koe{
-    display: block;
-    position: relative;
-    text-align: center;
-    color: white;
-       
-}
+@media only screen and (max-width: 500px) {
+    #lisakuvat{
+        width: 100%;
+        max-width: 100%;
+    }
+    .laavukuvatButton{
+        width: 40%;
+    }
 
-#imgtext {
-  position: absolute;
-  bottom: 8px;
-  left: 15px;
-  color: white;
-} */
+}
 
 
