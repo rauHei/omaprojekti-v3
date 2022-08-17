@@ -32,14 +32,12 @@ app.use(middleware.requestLogger)
 //reittien käyttöönotto:
 
 //ladatut kuvat menevät tänne
-
-
 app.use('/pics', express.static(path.join(__dirname, 'pics')));
 //kommentit
 app.use('/api/feedback', feedbackRouter)
 //käyttäjät
 app.use('/api/users', userRouter)
-
+//jotta kaikki muut sivut toimivat myös
 app.get("*", (req, res) => {
     res.sendFile(
         path.join(__dirname, "./build/index.html")

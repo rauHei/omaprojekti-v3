@@ -74,7 +74,7 @@ const FeedbackForm = () => {
 
             setMessage("Kiitos palautteestasi!")
 
-            // window.location.reload()
+            window.location.reload()
 
 
         } catch (error) {
@@ -161,7 +161,7 @@ const FeedbackForm = () => {
                     </div>
 
                     <br></br>
-                    {message}
+                    <p id="message">{message}</p>
                     <div id="submitBUttonDiv" >
                         <button type="Submit" id="submitButton">LÄHETÄ</button>
 

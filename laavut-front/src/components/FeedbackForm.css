@@ -289,6 +289,10 @@ padding-top: 150px;
   padding: 5px;
   background-color: rgb(166, 216, 169);
 }
+#message{
+  color: pink;
+  font-size: 18px;
+}
 
 @media only screen and (max-width: 900px) {
   #formialue {

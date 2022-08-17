@@ -65,7 +65,7 @@ const LoginForm = () => {
             setPassword('')
 
             console.log('KIRJAUTUMINEN ONNISTUI');
-
+            //päivittää sivun
             window.location.reload()
             history('/')
 
