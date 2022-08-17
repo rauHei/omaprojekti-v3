@@ -109,14 +109,14 @@ function Kartta(props) {
 
         <div className="container-fluid" id="kokosivu">
 
-            <div className="container" >
+            <div className="container-fluid" >
 
                 <div id="otsikko2">
                     <h1 >Liperin kunnan alueen laavut ja kodat kartalla</h1>
 
                 </div>
 
-                <div className="container" id="row">
+                <div className="container-fluid" id="row">
 
 
                     <div className="col" id="otsikko">
@@ -134,7 +134,7 @@ function Kartta(props) {
 
             </div>
 
-            <div className="container" id="Kartta" >
+            <div className="container-fluid" id="Kartta" >
                 <MapContainer center={position} zoom={11} setView={true} scrollWheelZoom={false} id="map2">
                     <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -309,7 +309,7 @@ function Kartta(props) {
                         </div>
                     </div>
 
-                    <div className="kuvaosa">
+                    <div className="col-sm-4" id="kuvaosa">
                         <img src={kuvaAlas} alt="ranta" className="img-fluid" id="kuvaosakuva" />
                     </div>
 
@@ -318,11 +318,11 @@ function Kartta(props) {
 
                 <div className="row" id="alaosa2">
 
-                    <div className="kuvaosa2">
+                    <div className="col-sm-6" id="kuvaosa2">
                         <img src={Reittitaulut} alt="reittitaulut" className="img-fluid2" />
                     </div>
 
-                    <div className="container-fluid" id="listalinkit">
+                    <div className="col-sm-6" id="listalinkit">
                         <h3>Muita karttoja ja linkkejä:</h3>
 
                         <ul>

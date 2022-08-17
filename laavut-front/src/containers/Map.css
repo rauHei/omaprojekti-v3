@@ -80,6 +80,7 @@ font-family: 'Lato', sans-serif;
 #map{
   width: 100%;
   border: 3px solid gray;
+ 
 }
 
 
@@ -88,7 +89,7 @@ font-family: 'Lato', sans-serif;
 #Kartta{
     position: relative;
     display: block;
-
+    justify-content: center;
     margin: auto;
 }
 
@@ -104,6 +105,7 @@ font-family: 'Lato', sans-serif;
     display: block;
     border: solid gray 2px;
     width: 1200px;
+    margin: auto;
     height: "180px";
     margin-top: 50px;
     justify-content: center;
@@ -197,12 +199,13 @@ grid-row: 1/4;
 
 }
 
-.kuvaosa{
+#kuvaosa{
     display: block;
+    margin: auto;
     justify-content: center;
     align-items: center;
     background-color: beige;
-    width: 45%;
+ 
     float: right;
     margin-top: 140px;
     margin-bottom: 80px;
@@ -256,7 +259,7 @@ grid-row: 1/4;
     margin-top: 50px;
 }
 
-.kuvaosa2{
+#kuvaosa2{
     position: relative;
     float: left;
     display: block;
@@ -273,7 +276,7 @@ grid-row: 1/4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
     margin: auto;
 }
-.kuvaosa2 img{
+#kuvaosa2 img{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
     border: solid gray 2px;
     display: block;
@@ -298,7 +301,7 @@ grid-row: 1/4;
     width: 76%;
     height: 76%; 
 }
-.kuvaosa2{
+#kuvaosa2{
     margin-top: 20px;
 }
 #map2{
@@ -329,7 +332,7 @@ grid-row: 1/4;
     margin-bottom: 5%;
     margin-top: 5px;   
   }
-  .kuvaosa{
+  #kuvaosa{
     margin-top: 10px;
     width: 50%;
     height: 40%;
@@ -339,7 +342,7 @@ grid-row: 1/4;
     width: 75%;
     margin-top: 10px;
   }
-  .kuvaosa2{
+  #kuvaosa2{
     width: 60%;
     margin: auto;
     margin-top: 10px;
@@ -351,7 +354,8 @@ grid-row: 1/4;
 
 @media only screen and (max-width: 500px) {
   #map2 {
-    width: 100%;  
+    width: 95%;
+    margin-bottom: 10px;  
   }
   #Kartta{
     width: 100%;
@@ -413,7 +417,7 @@ grid-row: 1/4;
   #otsikko{
      width: 100%;
   }
-  .kuvaosa2{
+  #kuvaosa2{
     width: 100%;
   }
 }
