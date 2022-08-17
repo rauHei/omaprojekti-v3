@@ -297,6 +297,7 @@ grid-row: 1/4;
 #kuvaosakuva{
     width: 100%;
     margin: auto;
+    margin-top: 170px;
 }
 .img-fluid2{
     width: 76%;
