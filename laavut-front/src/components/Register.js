@@ -48,6 +48,7 @@ const Register = () => {
             .then(() => {
                 setTimeout(() => {
                     setSuccesMessage('Nyt voit kirjautua sisään!')
+
                 }, 3000)
 
                 window.location.reload()
