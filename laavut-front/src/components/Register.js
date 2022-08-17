@@ -46,21 +46,16 @@ const Register = () => {
         userService
             .createUser(newPerson)
             .then(() => {
-                setTimeout(() => {
-                    setSuccesMessage('Nyt voit kirjautua sisään!')
-
-                }, 3000)
-
-                window.location.reload()
-
-
+                setSuccesMessage('Nyt voit ' + newPerson.username + ' kirjautua sisään!')
             })
             .catch((e) => {
                 setTimeout(() => {
-                    setErrorMessage('Tarkasta tiedot tapahtui virhe )' + e)
+                    setErrorMessage('Tarkasta tiedot tapahtui virhe ' + e)
                 }, 3000)
             })
-
+        setTimeout(() => {
+            window.location.reload()
+        }, 3000)
     }
 
     return (
