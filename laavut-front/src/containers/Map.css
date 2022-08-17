@@ -8,45 +8,48 @@ body{
     height: 100%;
 }
 
-/* otsikon ja kuvan muotoilut */
-#yläosa{
-    display: grid;
-    margin-bottom: 30px;
-}
 
+
+/* pääotsikko */
 #otsikko2{
     display: block;
     text-align: center;
     padding-top: 50px;
     text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
 
 }
-#otsikko2 h1{
-font-size: 46px;
-font-weight: bold;
-font-family: 'Lato', sans-serif;
-}
 
 
-/* grid muotoilut */
-#yläkuva{
+
+/*  yläosan muotoilut */
+#ylakuva{
     display: block;
-    justify-content: space-around;
-    align-items: center;
-    width:25%;
-    float: right;
-    margin: auto;
     margin-top: 85px;
     
+    margin: auto;   
+}
+
+#maisemakuva{
+  margin-left: 15%;
+    width: 65%;
+    max-width:100%;
+    border: solid gray 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 
 }
+
+
+
 #otsikko{
- width: 63%;
  float: left;
  text-align: center;
  margin-top: 55px;
  margin-bottom: 90px;
 }
+
 
 /* gridin yläkuvan otsikon ja kappaleen muotoilut */
 #otsikko h4 {
@@ -67,13 +70,6 @@ font-family: 'Lato', sans-serif;
 
 /*gridin yläosan kuva */
 
-#maisemakuva{
-    width: 85%;
-    max-width:100%;
-    border: solid gray 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-
-}
 
 
 /* Kartta muotoilut */
@@ -293,26 +289,50 @@ grid-row: 1/4;
 }
 
 @media only screen and (max-width: 1300px) {
+
+#alue2{
+  margin-top: 30px;
+}
+
 #kuvaosakuva{
-    width: 76%;
-    margin-left: 50px;
+    width: 100%;
+    margin: auto;
 }
 .img-fluid2{
     width: 76%;
     height: 76%; 
 }
 #kuvaosa2{
-    margin-top: 20px;
+   margin-top: 50px;
+   padding: 0px;
 }
 #map2{
-    width: 100%;
+    width: 95%;
 }
 }
 
 @media only screen and (max-width: 900px) {
- body{
-    height: 100%;
- }
+
+#otsikko2{
+  width: 90%;
+  margin: auto;
+}
+
+#otsikko{
+  width: 90%;
+  margin: auto;
+   margin-bottom: 10px;
+}
+#otsikko p, h4{
+  width: 80%;
+ 
+}
+ #ylakuva{
+  width: 65%;
+  margin: auto;
+  margin-top: 10px;
+  
+}
   #Kartta {
     width: 80%;
   } 
@@ -353,6 +373,26 @@ grid-row: 1/4;
 }
 
 @media only screen and (max-width: 500px) {
+  #otsikko2{
+  width: 90%;
+  margin: auto;
+}
+
+#otsikko{
+  width: 90%;
+  margin: auto;
+}
+#otsikko p, h4{
+  width: 90%;
+}
+
+#ylakuva{
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  
+}
+
   #map2 {
     width: 95%;
     margin-bottom: 10px;  
@@ -368,8 +408,8 @@ grid-row: 1/4;
   }
   #maisemakuva{
     width: 86%;
-    margin-bottom: 30px;
     margin-top: 0px;
+    margin-left: 19px;
   }
 
   

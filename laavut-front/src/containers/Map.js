@@ -109,24 +109,21 @@ function Kartta(props) {
 
         <div className="container-fluid" id="kokosivu">
 
+            <h1 id="otsikko2" >Liperin kunnan alueen laavut ja kodat kartalla</h1>
+
             <div className="container-fluid" >
 
-                <div id="otsikko2">
-                    <h1 >Liperin kunnan alueen laavut ja kodat kartalla</h1>
-
-                </div>
-
-                <div className="container-fluid" id="row">
+                <div className="row" id="ylaosa">
 
 
-                    <div className="col" id="otsikko">
+                    <div className="col-sm-8" id="otsikko">
                         <h4>Karttaan on merkattu vaellusreitit keltaisella.</h4>
                         <p>Keltaisella merkitty kinttupolku (Kintt) reitistökokonaisuus (65 km) muodostuu seitsemästä rengasreitistä. Reitit soveltuvat lumettoman ajan maastopyöräilyyn, kävelyyn ja polkujuoksuun. Merkityt reitit ovat kaksisuuntaisia ja suurimmaksi osaksi luonnontilaisia polkuja.
                             <br></br>  Ks. alempaa linkit polkujen omiin karttakokonaisuuksiin.
                         </p>
                     </div>
 
-                    <div className="col" id="yläkuva">
+                    <div className="col-sm-4" id="ylakuva">
                         <img src={maisema} alt="maisemakuva lammesta ja puista jonka takana laavu" id="maisemakuva" />
                     </div>
 
