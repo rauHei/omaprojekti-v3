@@ -17,18 +17,15 @@ const Register = () => {
 
     const handleNameChange = (e) => {
         e.preventDefault()
-        console.log('username:', e.target.value);
         setName(e.target.value)
     }
 
     const handleUserNameChange = (e) => {
         e.preventDefault()
-        console.log('name:', e.target.value);
         setUsername(e.target.value)
     }
     const handlePasswordChange = (e) => {
         e.preventDefault()
-        console.log('password:', e.target.value);
         setPassword(e.target.value)
     }
 

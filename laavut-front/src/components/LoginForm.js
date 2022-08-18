@@ -36,12 +36,10 @@ const LoginForm = () => {
 
     const handleNameChange = (e) => {
         e.preventDefault()
-        console.log('USername', e.target.value);
         setUsername(e.target.value)
     }
     const handlePasswordChange = (e) => {
         e.preventDefault()
-        console.log('Passworf', e.target.value);
         setPassword(e.target.value)
     }
 
