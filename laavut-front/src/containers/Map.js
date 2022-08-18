@@ -102,7 +102,7 @@ const laavuData = [
 function Kartta(props) {
     const [laavudata, setLaavuData] = useState(laavuData)
 
-    console.log('laavudata:', laavudata);
+    // console.log('laavudata:', laavudata);
 
 
     return (
@@ -299,7 +299,7 @@ function Kartta(props) {
                         <div className="col-sm-4" id="alue2">
                             <h3 id="lista2">Kartalta löytyvät seuraavat laavut ja kodat</h3>
                             <ul id="lista" className="row">
-                                {laavuData.map((names) => (
+                                {laavudata.map((names) => (
                                     <li key={names.name} id="listaL"><img className="kuvalistalla" src={names.image} alt="harijärvenkota" />{names.name}</li>
                                 ))}
                             </ul>

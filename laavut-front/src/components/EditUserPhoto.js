@@ -43,7 +43,7 @@ const EditUserPhoto = () => {
             data.append('image', files[0])
 
             setPic(data)
-            console.log('Data', data);
+
         } else {
             console.log('NO data was found');
         }
@@ -51,8 +51,7 @@ const EditUserPhoto = () => {
 
     }
 
-    console.log('USERI täÄL', user);
-    console.log('image', pic);
+
 
 
     //kuvan lataus/ päivitys, lähetään kuvan tiedot backendiin ja 

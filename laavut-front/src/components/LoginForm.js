@@ -99,7 +99,7 @@ const LoginForm = () => {
 
     }
 
-    console.log('UPDUSER', updUser);
+
     return (
 
         <div>

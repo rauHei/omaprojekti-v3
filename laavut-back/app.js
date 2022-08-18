@@ -13,7 +13,7 @@ const path = require('path')
 const app = express()
 
 
-logger.info('connecting to', config.MONGODB_URI)
+//logger.info('connecting to', config.MONGODB_URI)
 
 mongoose.connect(config.MONGODB_URI)
     .then(() => {

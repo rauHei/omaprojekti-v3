@@ -36,21 +36,21 @@ const EditUserInfo = () => {
 
     const handleNameChange = (e) => {
         e.preventDefault()
-        console.log('name:', e.target.value);
+
         setName(e.target.value)
     }
     const handleUserNameChange = (e) => {
         e.preventDefault()
-        console.log('username:', e.target.value);
+
         setUsername(e.target.value)
     }
     const handlePasswordChange = (e) => {
         e.preventDefault()
-        console.log('password:', e.target.value);
+
         setPassword(e.target.value)
     }
 
-    console.log("id", Id)
+
 
     //päivittää muutoksen..
     //Jos ei id:tä ole ei tapahdu mitäänm muutoin asetetaa uusi käyttäjä
@@ -96,15 +96,14 @@ const EditUserInfo = () => {
         }
     }
 
-    console.log('UPDATED USER ON:', UpdatedUser);
-    // console.log('USER', user);
+
 
     //takaisin paluu nappula!
     const back = () => {
         history('/profile')
     }
 
-    console.log('USERU', user);
+
 
     return (
         <div className="container-fluid" id="rekisteroi2">
