@@ -77,7 +77,7 @@ const LoginForm = () => {
 
 
 
-    //logout func
+    //logout function
     const handleLogOut = async (event) => {
         event.preventDefault()
 

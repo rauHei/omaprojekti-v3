@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-//import "../Main.css"
 import './Register.css';
 import HomeButton from "./HomeButton"
 import userService from '../services/users'

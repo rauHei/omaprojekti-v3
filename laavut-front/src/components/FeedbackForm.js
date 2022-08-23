@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-//import "../Main.css"
 import '../components/FeedbackForm.css'
 import feedbackService from '../services/Feedback'
 import userService from '../services/users'

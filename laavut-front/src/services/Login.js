@@ -15,20 +15,4 @@ const loginUser = async credentials => {
 }
 
 
-
-// const IsLoggedin = async () => {
-//     const response = await axios.get(baseUrl)
-//     return response.data
-// }
-
-// const LogOut = async (credentials) => {
-//     const config = {
-//         headers: { Authorization: token },
-//     }
-//     const res = await axios.delete(baseUrl, credentials, config)
-//     return res.data
-// }
-
-
-
 export default { loginUser }

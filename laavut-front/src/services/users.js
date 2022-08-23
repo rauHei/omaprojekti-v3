@@ -8,7 +8,7 @@ const setToken = newToken => {
     token = `bearer ${newToken}`
 }
 
-
+//hakee kaikki käyttäjät
 const getAllusers = async () => {
     const request = axios.get(baseUrl)
     try {
@@ -19,6 +19,7 @@ const getAllusers = async () => {
     }
 }
 
+//luo käyttäjän
 const createUser = async (newObject) => {
 
     const newUser = {
@@ -36,6 +37,7 @@ const createUser = async (newObject) => {
     }
 }
 
+//päivittää käyttäjän tiedot
 const updateUser = async (id, newObject) => {
 
     const config = {
@@ -55,7 +57,7 @@ const updateUser = async (id, newObject) => {
         console.log('Something went wron with axios', error);
     }
 }
-
+//hakee tietyn käyttäjän
 const getByid = async (id) => {
     const config = {
         headers: { Authorization: token },
@@ -69,8 +71,8 @@ const getByid = async (id) => {
     }
 }
 
+//päivittää käyttäjän valokuvanS
 const updateUserPhoto = async (id, data) => {
-    // const dataa = JSON.stringify(data)
 
     const config = {
         headers: {

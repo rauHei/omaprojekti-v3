@@ -68,11 +68,6 @@ const Main = () => {
 
 
 
-
-
-
-
-
     return (
         <div className="container-fluid" id="paaalue">
 

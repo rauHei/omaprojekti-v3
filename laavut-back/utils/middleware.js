@@ -1,6 +1,6 @@
 const logger = require('./logger')
 
-//error handler middleware
+
 const requestLogger = (request, response, next) => {
     logger.info('Method:', request.method)
     logger.info('Path:  ', request.path)
@@ -9,7 +9,7 @@ const requestLogger = (request, response, next) => {
     next()
 }
 
-
+//error handler middleware
 const errorHandler = async (error, request, response, next) => {
     logger.errorM(error.message)
 

@@ -32,7 +32,7 @@ const Footer = () => {
                         <img src={kelo} alt="kelopuu" id="kelo" />
                         <a href="https://twitter.com/liperinkunta" rel="noreferrer" target="_blank"><FaTwitter id="logo" /> Liperin twitter</a>
                     </div>
-                    {/* <img src={kelo} alt="kelopuu" id="kelo" /> */}
+
                 </div>
 
 
